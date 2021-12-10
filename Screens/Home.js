@@ -13,7 +13,7 @@ const Home = ({ navigation }) => {
     const [Longi, setLongi] = useState("");
 
     const buscar = (ciudad) => {
-        const apikey = "65c74cf9ff4cbe5bf41e2a609aa3b767";
+        const apikey = "d70eea36d4a04c7d0f9fbee99823b601";
         const api_url = `http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apikey}&units=metric`;
 
         fetch(api_url)
